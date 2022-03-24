@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+}
+
+.background{
+    position: relative;
+    height: 580px;
+    background-image: url('../../images/back.png');
+    background-position:center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    left: 200px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left: 100px; */
+    position: relative;
+    top: 100px;
+    left: -100px;
+    width: 457px;
+    height: 130px;
+    font-family: 'Poppins';
+    color: #1A3849;
+    /* background-color: aliceblue; */
+}
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.subHeading{
+    font-style:normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.buttonsMeeting{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    width: 365px;
+    height: 166px;
+    left: -100px;
+    top: 150px;
+}
+
+.startNewMeeting{
+    width: 166px;
+    height: 166px;
+    background: #F4FFF1;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: #649C57;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+.videoImg{
+    display: block;
+    position: relative;
+    margin:0 auto;
+    top: 50px;
+}
+.spanStartMeeting{
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.dropDown{
+    position: relative;
+    top: 88px;
+    display: block;
+    margin: 0 auto;
+    /* left: 20px; */
+}
+
+.startNewOptions{
+    /* opacity: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 166px;
+    height: 97px;
+    top: 50px;
+    /* left: 100px;
+    top: 502px; */
+    background: #DEFFD5;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #1A3849;
+}
+
+.speratorLine{
+    position: relative;
+    width: 126px;
+    height: 0px;
+    /* margin: 0 auto; */
+    border: 1px solid #C1C1C1;
+}
+
+.JoinAMeeting{
+    width: 166px;
+    height: 166px;
+    background: linear-gradient(225.17deg, #9BD08F 2.02%, #5D9E4F 100%);
+    border-radius: 12px;
+    color: #ffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+.plusImg{
+    display: block;
+    position: relative;
+    margin:0 auto;
+    top: 40px;
+}
+.spanJoinMeeting{
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
